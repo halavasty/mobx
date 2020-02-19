@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRootData } from '../../hook';
+import { useRootData } from '../../hooks';
 
 export const Search: React.FC = () => {
   const { query, setQuery } = useRootData(store => ({
